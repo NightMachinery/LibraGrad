@@ -1,6 +1,6 @@
 #+TITLE: LibraGrad: Balancing Gradient Flow for Universally Better Vision Transformer Attributions
 
-Read the [[https://raw.githubusercontent.com/NightMachinery/LibraGrad/master/paper/LibraGrad_v2.4.5_with_appendices.pdf][paper]]. Appendix C of the paper contains many multi-object qualitative examples.
+Read the [[https://raw.githack.com/NightMachinery/LibraGrad/master/paper/LibraGrad_v2.4.5_with_appendices.pdf][paper]]. Appendix C of the paper contains many multi-object qualitative examples.
 
 [[./images/fig_1.png]]
 
