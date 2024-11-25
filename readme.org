@@ -10,7 +10,13 @@ Read the [[https://raw.githack.com/NightMachinery/LibraGrad/master/paper/LibraGr
 [[./images/main_002_cropped.jpeg]]
 
 * [[id:9b138a2b-f5b3-46a5-a496-7452c77cc109][Github/pages/create]] :noexport:
+:PROPERTIES:
+:ID:       648abab6-2601-40e6-9612-1a7f474d9884
+:END:
 ** [[https://nightmachinery.github.io/LibraGrad/][LibraGrad: Balancing Gradient Flow for Universally Better Vision Transformer Attributions]]
+:PROPERTIES:
+:ID:       f6ba8bcc-d17c-4429-91f0-117e34703142
+:END:
 
 ** Add the correct favicon
 :PROPERTIES:
@@ -23,11 +29,20 @@ html_favicon.py favicon.svg --input=index.html --output=index.html
 #+end_src
 
 *** [[https://fontawesome.com/v5/icons/balance-scale?s=solid][Balance Scale Icon | Font Awesome]]
+:PROPERTIES:
+:ID:       f3e274c6-cb6e-47dc-9f3f-b82a7116a68b
+:END:
 
 * Abstract
+:PROPERTIES:
+:ID:       2d8d8584-ff9f-4eb8-b400-01d060112415
+:END:
 Why do gradient-based explanations struggle with Transformers, and how can we improve them? We identify gradient flow imbalances in Transformers that violate FullGrad-completeness, a critical property for attribution faithfulness that CNNs naturally possess. To address this issue, we introduce LibraGrad—a theoretically grounded post-hoc approach that corrects gradient imbalances through pruning and scaling of backward paths, without changing the forward pass or adding computational overhead. We evaluate LibraGrad using three metric families: Faithfulness, which quantifies prediction changes under perturbations of the most and least relevant features; Completeness Error, which measures attribution conservation relative to model outputs; and Segmentation AP, which assesses alignment with human perception. Extensive experiments across 8 architectures, 4 model sizes, and 4 datasets show that LibraGrad universally enhances gradient-based methods, outperforming existing white-box methods—including Transformer-specific approaches—across all metrics. We demonstrate superior qualitative results through two complementary evaluations: precise text-prompted region highlighting on CLIP models and accurate class discrimination between co-occurring animals on ImageNet-finetuned models—two settings on which existing methods often struggle. LibraGrad is effective even on the attention-free MLP-Mixer architecture, indicating potential for extension to other modern architectures.
 
 * Code
+:PROPERTIES:
+:ID:       57bad82d-f0e8-4421-bff1-85590fbbd38e
+:END:
 The code of this paper is distributed across three repositories:
 - [[https://github.com/NightMachinery/decompv-libragrad-v1][NightMachinery/decompv-libragrad-v1]]
 
@@ -37,6 +52,9 @@ The code of this paper is distributed across three repositories:
 - [[https://github.com/NightMachinery/PyNight][NightMachinery/PyNight: My Python utility library.]]
 
 ** Notebooks
+:PROPERTIES:
+:ID:       c6676863-c8a7-4133-8f78-bba3ea73d9e8
+:END:
 We offer two interactive notebooks:
 
 1. [[https://colab.research.google.com/github/NightMachinery/LibraGrad/blob/master/notebooks/llama3.ipynb][Implementing LibraGrad From Scratch for Llama 3]]
