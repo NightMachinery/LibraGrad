@@ -39,6 +39,7 @@ We offer two interactive notebooks:
 * Support
 If you find LibraGrad useful in your work, please consider starring our repository at [[https://github.com/NightMachinery/LibraGrad][github.com/NightMachinery/LibraGrad]] and citing our papers for LibraGrad and FullGrad+:
 
+# @todo update the bibtex for LibraGrad
 #+begin_src bibtex
 @article{mehri2024libragrad,
   title = {{LibraGrad}: Balancing Gradient Flow for Universally Better Vision Transformer Attributions},
