@@ -10,7 +10,7 @@ Read the [[https://raw.githack.com/NightMachinery/LibraGrad/master/paper/LibraGr
 [[./images/main_002_cropped.jpeg]]
 
 * [[id:9b138a2b-f5b3-46a5-a496-7452c77cc109][Github/pages/create]] :noexport:
-** [[https://nightmachinery.github.io/LibraGrad]]
+** [[https://nightmachinery.github.io/LibraGrad/][LibraGrad: Balancing Gradient Flow for Universally Better Vision Transformer Attributions]]
 
 ** Add the correct favicon
 :PROPERTIES:
@@ -52,7 +52,7 @@ We offer two interactive notebooks:
 :PROPERTIES:
 :ID:       56e6fdff-5190-4490-896e-6dee43aa55d1
 :END:
-If you find LibraGrad useful in your work, please consider starring our repository at [[https://github.com/NightMachinery/LibraGrad][github.com/NightMachinery/LibraGrad]] and citing our papers for LibraGrad and FullGrad+:
+Found LibraGrad helpful? Star our repository ([[https://github.com/NightMachinery/LibraGrad][github.com/NightMachinery/LibraGrad]]) and cite our LibraGrad and FullGrad+ papers:
 
 # @todo update the bibtex for LibraGrad
 #+begin_src bibtex
