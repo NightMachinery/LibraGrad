@@ -37,6 +37,9 @@ We offer two interactive notebooks:
    - Features automatic setup that handles all repository installations and dependencies
 
 * Support
+:PROPERTIES:
+:ID:       56e6fdff-5190-4490-896e-6dee43aa55d1
+:END:
 If you find LibraGrad useful in your work, please consider starring our repository at [[https://github.com/NightMachinery/LibraGrad][github.com/NightMachinery/LibraGrad]] and citing our papers for LibraGrad and FullGrad+:
 
 # @todo update the bibtex for LibraGrad
