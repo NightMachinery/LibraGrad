@@ -19,7 +19,7 @@ Read the [[https://raw.githack.com/NightMachinery/LibraGrad/master/paper/LibraGr
 #+begin_src zsh :eval never
 deus org-export-recursive readme.org ; gmv readme.html index.html
 
-html_favicon.py --url-prefix='/LibraGrad/' favicon.svg --input=index.html --output=index.html
+html_favicon.py favicon.svg --input=index.html --output=index.html
 #+end_src
 
 *** [[https://fontawesome.com/v5/icons/balance-scale?s=solid][Balance Scale Icon | Font Awesome]]
