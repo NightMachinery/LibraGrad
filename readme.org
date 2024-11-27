@@ -13,16 +13,17 @@ To understand model decisions, attribution methods measure how input features co
 [[./images/main_001_cropped.jpeg]]
 [[./images/main_002_cropped.jpeg]]
 
-* [[id:9b138a2b-f5b3-46a5-a496-7452c77cc109][Github/pages/create]] :noexport:
+* _ :noexport:
+** [[id:9b138a2b-f5b3-46a5-a496-7452c77cc109][Github/pages/create]] :noexport:
 :PROPERTIES:
 :ID:       648abab6-2601-40e6-9612-1a7f474d9884
 :END:
-** [[https://nightmachinery.github.io/LibraGrad/][LibraGrad: Balancing Gradient Flow for Universally Better Vision Transformer Attributions]]
+*** [[https://nightmachinery.github.io/LibraGrad/][LibraGrad: Balancing Gradient Flow for Universally Better Vision Transformer Attributions]]
 :PROPERTIES:
 :ID:       f6ba8bcc-d17c-4429-91f0-117e34703142
 :END:
 
-** Add the correct favicon
+*** Add the correct favicon
 :PROPERTIES:
 :ID:       e6a9d4a5-a657-4171-8b7f-2dbb6d75a80a
 :END:
@@ -32,7 +33,7 @@ deus org-export-recursive readme.org ; gmv readme.html index.html
 html_favicon.py favicon.svg --input=index.html --output=index.html
 #+end_src
 
-*** [[https://fontawesome.com/v5/icons/balance-scale?s=solid][Balance Scale Icon | Font Awesome]]
+**** [[https://fontawesome.com/v5/icons/balance-scale?s=solid][Balance Scale Icon | Font Awesome]]
 :PROPERTIES:
 :ID:       f3e274c6-cb6e-47dc-9f3f-b82a7116a68b
 :END:
