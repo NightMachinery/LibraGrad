@@ -94,7 +94,7 @@ Found LibraGrad helpful? Star our repository ([[https://github.com/NightMachiner
 }
 
 @article{mehri-skipplus-cvpr24,
-  title         = {Skip{PLUS}: Skip the First Few Layers to Better Explain Vision Transformers},
+  title         = {{SkipPLUS}: Skip the First Few Layers to Better Explain Vision Transformers},
   author        = {Faridoun Mehri and Mohsen Fayyaz and Mahdieh Soleymani Baghshah and Mohammad Taher Pilehvar},
   journal       = {2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
   year          = {2024},
