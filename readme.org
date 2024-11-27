@@ -1,7 +1,11 @@
 #+TITLE: LibraGrad: Balancing Gradient Flow for Universally Better Vision Transformer Attributions
 #+options: toc:3
 
-Read the [[https://raw.githack.com/NightMachinery/LibraGrad/master/paper/LibraGrad_v2.4.5_with_appendices.pdf][paper]]. Appendix C of the paper contains many multi-object qualitative examples.
+To understand model decisions, attribution methods measure how input features contribute to outputs. LibraGrad enhances all gradient-based attribution methods for Transformers through theoretically-motivated gradient flow balancing,  leading to fast and faithful post-hoc explanations. For theoretical foundations and comprehensive quantitative and qualitative evaluations, see our [[https://arxiv.org/pdf/2411.16760][paper]].
+
+# Read the [[https://arxiv.org/pdf/2411.16760][paper]].
+# Read the [[https://raw.githack.com/NightMachinery/LibraGrad/master/paper/LibraGrad_v2.4.5_with_appendices.pdf][paper]].
+# Appendix C of the paper contains many multi-object qualitative examples.
 
 # [[./images/fig_1.png]]
 # [[./images/main_001_cropped.png]]
