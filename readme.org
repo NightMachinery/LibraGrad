@@ -81,24 +81,24 @@ We offer two interactive notebooks:
 :END:
 Found LibraGrad helpful? Star our repository ([[https://github.com/NightMachinery/LibraGrad][github.com/NightMachinery/LibraGrad]]) and cite our LibraGrad and FullGrad+ papers:
 
-# @todo update the bibtex for LibraGrad
+# @todo update the bibtex for LibraGrad, use bibtidy
 #+begin_src bibtex
-@misc{mehri2024libragrad,
-  title = {{LibraGrad}: Balancing Gradient Flow for Universally Better Vision Transformer Attributions}, 
-  author = {Faridoun Mehri and Mahdieh Soleymani Baghshah and Mohammad Taher Pilehvar},
-  year = {2024},
-  eprint = {2411.16760},
-  archivePrefix = {arXiv},
-  primaryClass = {cs.CV},
-  url = {https://arxiv.org/abs/2411.16760}, 
+@misc{mehri-libragrad,
+  title         = {{LibraGrad}: Balancing Gradient Flow for Universally Better Vision Transformer Attributions},
+  author        = {Faridoun Mehri and Mahdieh Soleymani Baghshah and Mohammad Taher Pilehvar},
+  year          = {2024},
+  eprint        = {2411.16760},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2411.16760},
 }
 
-@article{skipplus-cvprw24,
-  title = {{SkipPLUS}: Skip the First Few Layers to Better Explain Vision Transformers},
-  author = {Faridoun Mehri and Mohsen Fayyaz and Mahdieh Soleymani Baghshah and Mohammad Taher Pilehvar},
-  journal = {2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
-  year = {2024},
-  pages = {204-215},
-  url = {https://api.semanticscholar.org/CorpusID:272915235}
+@article{mehri-skipplus-cvpr24,
+  title         = {Skip{PLUS}: Skip the First Few Layers to Better Explain Vision Transformers},
+  author        = {Faridoun Mehri and Mohsen Fayyaz and Mahdieh Soleymani Baghshah and Mohammad Taher Pilehvar},
+  journal       = {2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  year          = {2024},
+  pages         = {204--215},
+  url           = {https://openaccess.thecvf.com/content/CVPR2024W/TCV2024/html/Mehri\%5FSkipPLUS\%5FSkip\%5Fthe\%5FFirst\%5FFew\%5FLayers\%5Fto\%5FBetter\%5FExplain\%5FVision\%5FCVPRW\%5F2024\%5Fpaper.html},
 }
 #+end_src
