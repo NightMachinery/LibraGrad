@@ -95,13 +95,13 @@ Found LibraGrad helpful? Star our repository ([[https://github.com/NightMachiner
 # @todo update the bibtex for LibraGrad
 #+begin_src bibtex
 @misc{mehri2024libragrad,
-      title={{LibraGrad}: Balancing Gradient Flow for Universally Better Vision Transformer Attributions}, 
-      author={Faridoun Mehri and Mahdieh Soleymani Baghshah and Mohammad Taher Pilehvar},
-      year={2024},
-      eprint={2411.16760},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2411.16760}, 
+  title={{LibraGrad}: Balancing Gradient Flow for Universally Better Vision Transformer Attributions}, 
+  author={Faridoun Mehri and Mahdieh Soleymani Baghshah and Mohammad Taher Pilehvar},
+  year={2024},
+  eprint={2411.16760},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2411.16760}, 
 }
 
 @article{skipplus-cvprw24,
