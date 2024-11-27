@@ -14,7 +14,7 @@ To understand model decisions, attribution methods measure how input features co
 [[./images/main_001_cropped.jpeg]]
 [[./images/main_002_cropped.jpeg]]
 
-* _ :noexport:
+* COMMENT _ :noexport:
 ** [[id:9b138a2b-f5b3-46a5-a496-7452c77cc109][Github/pages/create]] :noexport:
 :PROPERTIES:
 :ID:       648abab6-2601-40e6-9612-1a7f474d9884
