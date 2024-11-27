@@ -15,7 +15,20 @@ To understand model decisions, attribution methods measure how input features co
 [[./images/main_002_cropped.jpeg]]
 
 * COMMENT _ :noexport:
-** [[id:9b138a2b-f5b3-46a5-a496-7452c77cc109][Github/pages/create]] :noexport:
+** [[https://arxiv.org/abs/2411.16760][{2411.16760} LibraGrad: Balancing Gradient Flow for Universally Better Vision Transformer Attributions]]
+#+begin_example tex
+@misc{mehri2024libragrad,
+      title={{LibraGrad}: Balancing Gradient Flow for Universally Better Vision Transformer Attributions}, 
+      author={Faridoun Mehri and Mahdieh Soleymani Baghshah and Mohammad Taher Pilehvar},
+      year={2024},
+      eprint={2411.16760},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.16760}, 
+}
+#+end_example
+
+** [[id:9b138a2b-f5b3-46a5-a496-7452c77cc109][Github/pages/create]]
 :PROPERTIES:
 :ID:       648abab6-2601-40e6-9612-1a7f474d9884
 :END:
@@ -31,7 +44,8 @@ To understand model decisions, attribution methods measure how input features co
 #+begin_src zsh :eval never
 deus org-export-recursive readme.org ; gmv readme.html index.html
 
-html_favicon.py favicon.svg --input=index.html --output=index.html
+# html_favicon.py favicon.svg --input=index.html --output=index.html
+#: The favicon will be added automatically when it exists.
 #+end_src
 
 **** [[https://fontawesome.com/v5/icons/balance-scale?s=solid][Balance Scale Icon | Font Awesome]]
@@ -80,12 +94,14 @@ Found LibraGrad helpful? Star our repository ([[https://github.com/NightMachiner
 
 # @todo update the bibtex for LibraGrad
 #+begin_src bibtex
-@article{mehri2024libragrad,
-  title = {{LibraGrad}: Balancing Gradient Flow for Universally Better Vision Transformer Attributions},
-  author = {Faridoun Mehri and Mahdieh Soleymani Baghshah and Mohammad Taher Pilehvar},
-  journal = {preprint},
-  year = {2024},
-  url = {https://raw.githack.com/NightMachinery/LibraGrad/master/paper/LibraGrad_v2.4.5_with_appendices.pdf}
+@misc{mehri2024libragrad,
+      title={{LibraGrad}: Balancing Gradient Flow for Universally Better Vision Transformer Attributions}, 
+      author={Faridoun Mehri and Mahdieh Soleymani Baghshah and Mohammad Taher Pilehvar},
+      year={2024},
+      eprint={2411.16760},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.16760}, 
 }
 
 @article{skipplus-cvprw24,
